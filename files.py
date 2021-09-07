@@ -1,3 +1,4 @@
+#Task9 with using file information
 path = 'C:/Users/dorof/PycharmProjects/pythonProject1/testingtypes.txt'
 test_file = open(path, 'r')
 test_file.readlines()
