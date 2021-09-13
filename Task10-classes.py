@@ -79,8 +79,7 @@ class Book:
             self.__year = value
         else:
             raise ValueError
-
-    @property
+            
     def full_info(self):
         """Return full info about book as attr(only for reading)."""
         return '{}, {}, {}, {}, {}, {}, {}, {}.'.format(self.__id_book, self.__title, self.__authors,
